@@ -29,4 +29,6 @@ Your task is to create a Python script that analyzes the records to calculate ea
 * The greatest decrease in profits (date and amount) over the entire period
 * Your analysis should align with the following results:
 
+![Snip20231102_30](https://github.com/JesseOli100/Python-Challenge/assets/62526904/68f9f541-2859-4a19-9138-573ada58aad7)
+
 
