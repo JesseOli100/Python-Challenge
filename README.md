@@ -46,3 +46,6 @@ You will be given a set of poll data called election_data.csv. The dataset is co
 * The winner of the election based on popular vote
 * Your analysis should align with the following results:
 
+![Snip20231102_31](https://github.com/JesseOli100/Python-Challenge/assets/62526904/b77809c8-345c-4727-9483-4ec96438d224)
+
+In addition, your final script should both print the analysis to the terminal and export a text file with the results.
