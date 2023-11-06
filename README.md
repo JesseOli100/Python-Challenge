@@ -62,4 +62,6 @@ Always commit your work and back it up with pushes to GitHub or GitLab. You don'
 
 # Sources 
 
-
+• Help from TA Matthew Werth
+• Met up w/ other students during study groups to hash out the code through what we have learned so far
+• Used StackOverFlow and ChatGPT for issues on the code and/or to explain why certain pieces of the script were not running as intended
