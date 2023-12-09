@@ -76,21 +76,31 @@ The purpose of the “main.py” file in both PyBank and PyPoll is just to displ
 
 Syntax Learned:
 
-import os – Imports the OS module (this module provides functions for creating and removing a directory, getting its contents, changing information, etc.) 
-import csv – Imports the csv module (this module implements classes to read and write tabular data in CSV format)
-os.path.join(“Folder_Name”, “csv_file_name.csv”) – Defines the path to the input CSV file
-len(Variable_or_Function_name) – Returns the length of an object
-list = [] – Creates a blank list 
-with open(input_file, 'r') as file: - Opens the specific file in ‘read’ mode, this is convenient because it also takes care of closing the file for you 
-object_name = csv.reader(file) – Creates as csv reader object that reads the contents of the specified file name and allows you to read and manipulate data stored in that file 
-for row in object_name: - Loops through each element in the variable, in each iteration of the loop, the element is assigned to the “row” variable which allows you to perform operations on said variable. You could change “row” for something else within the variable you’d want to read within the csv file, but the file would need to have that variable already in it. 
- if len(row) > 1: - If the length of the “row” variable is greater than 1 
-if Variable_Name is not None: - If the specified variable is not equal to None (if there is any value other than None present). “None” is a special value in Python that represents the absence of a value. 
-Variable_Name = f''' [insert string here] ''' – Creates a variable which will use the f-strings feature or formatted string literals. It allows for the user to embed expressions inside strings using {}. 
-print() – 
-variable_name = “./Folder_Name/csv_file_name.txt” – Defines the path to the output text file
+* import os – Imports the OS module (this module provides functions for creating and removing a directory, getting its contents, changing information, etc.)
+  
+* import csv – Imports the csv module (this module implements classes to read and write tabular data in CSV format)
+  
+* os.path.join(“Folder_Name”, “csv_file_name.csv”) – Defines the path to the input CSV file
 
-with open(output_file, 'w') as f:
+* len(Variable_or_Function_name) – Returns the length of an object
+
+* list = [] – Creates a blank list 
+
+* with open(input_file, 'r') as file: - Opens the specific file in ‘read’ mode, this is convenient because it also takes care of closing the file for you 
+
+* object_name = csv.reader(file) – Creates as csv reader object that reads the contents of the specified file name and allows you to read and manipulate data stored in that file 
+
+* for row in object_name: - Loops through each element in the variable, in each iteration of the loop, the element is assigned to the “row” variable which allows you to perform operations on said variable. You could change “row” for something else within the variable you’d want to read within the csv file, but the file would need to have that variable already in it. 
+
+* if len(row) > 1: - If the length of the “row” variable is greater than 1 
+ 
+* if Variable_Name is not None: - If the specified variable is not equal to None (if there is any value other than None present). “None” is a special value in Python that represents the absence of a value. 
+
+* Variable_Name = f''' [insert string here] ''' – Creates a variable which will use the f-strings feature or formatted string literals. It allows for the user to embed expressions inside strings using {}. 
+
+* variable_name = “./Folder_Name/csv_file_name.txt” – Defines the path to the output text file
+
+* with open(output_file, 'w') as f:
      f.write(variable_name) - Outputs the desired information into the specified csv file 
 
 - - -
